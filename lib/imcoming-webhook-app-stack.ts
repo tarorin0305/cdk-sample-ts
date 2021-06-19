@@ -5,7 +5,7 @@ import * as iam from "@aws-cdk/aws-iam";
 import { Function, Runtime, Code } from "@aws-cdk/aws-lambda"
 import fs = require("fs")
 
-export class ImcomingWebhookAppStack extends cdk.Stack {
+export class IncomingWebhookAppStack extends cdk.Stack {
   constructor(scope: cdk.Construct, id: string, props?: cdk.StackProps) {
     super(scope, id, props);
 

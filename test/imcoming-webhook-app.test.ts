@@ -5,7 +5,7 @@ import * as ImcomingWebhookApp from '../lib/imcoming-webhook-app-stack';
 test('Empty Stack', () => {
     const app = new cdk.App();
     // WHEN
-    const stack = new ImcomingWebhookApp.ImcomingWebhookAppStack(app, 'MyTestStack');
+    const stack = new ImcomingWebhookApp.IncomingWebhookAppStack(app, 'MyTestStack');
     // THEN
     expectCDK(stack).to(matchTemplate({
       "Resources": {}
